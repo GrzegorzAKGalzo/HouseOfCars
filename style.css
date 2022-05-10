@@ -1,12 +1,10 @@
 * {
     box-sizing: border-box;
-    margin: 0 auto;
     color: rgb(5,210,243);
     font-family: 'Montserrat', sans-serif;
   }
   [class*="col-"] {
     float: left;
-    padding: 15px;
   }
 body{
     background-image: url("zdjecia/Tło_Strony.png");
@@ -18,30 +16,45 @@ body{
 /* For desktop: */
 .col-1 {width: 8.33%;}
 .col-2 {width: 16.66%;}
-.col-3 {width: 20%; text-align: center; margin: 30px;}
+.col-3 {width: 25%; text-align: center; }
 .col-4 {width: 33.33%;}
 .col-5 {width: 41.66%;}
 .col-6 {width: 50%;}
 .col-7 {width: 58.33%;}
-.col-8 {width: 66.66%;}
+.col-8 {width: 66.66%; }
 .col-9 {width: 75%;}
 .col-10 {width: 83.33%;}
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
 
+.col-8 h1{
+    font-size: 6vw;
+    margin: 20px;
+}
+.col-8 h2{
+    font-size: 2vw;
+    margin: 10px;
+}
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
   [class*="col-"] {
     width: 100%;
     text-align: center;
+    justify-content: center;
   }
+  .col-8 h1{
+    font-size: 10vw;
+}
+.col-8 h2{
+    font-size: 6vw;
+}
 }
 .row::after {
-    margin: 0 auto;
     content: "";
     clear: both;
     display: block;
     text-align: center;
+    justify-content: center;
 }
 
 
@@ -49,48 +62,42 @@ img{
     width: 100%;
     height: 100%; 
 }
-.col-9 h1{
-    font-size: 6em;
-}
-.col-9{
-    padding-top: 6em;
-}
-.col-8{
-    padding-top: 12%;
-}
-.col-8 h1{
-    font-size: 6em;
-}
-.col-8 h2{
-    font-size: 2em;
+
+
+.naglowki{
+    padding-top: 8vw;
 }
 .info-box{
     border: 2px solid rgb(5,211,245);
     background-color: rgba(44,44,44,0.5);
     color: rgb(5,210,243);
+    box-shadow: inset 0 0 1em rgb(5,211,245);
+    padding: 20px;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+fieldset{
+    width: 70%;
+    margin: 0 auto;
+    text-align: center; 
+    border: 2px solid rgb(5,211,245);
+    background-color: rgba(44,44,44,0.5);
+    color: rgb(5,210,243);
+    float: left;
+    box-shadow: inset 0 0 1em rgb(5,211,245);
+    
 }
 p{
     padding-top: 20px;
 }
 table{
     text-align: left;
+    margin: 0 auto;
 }
 td:nth-child(2n){
     font-weight: bold;
 }
-fieldset{
-    width: 20%; text-align: center; margin: 30px;
-    border: 2px solid rgb(5,211,245);
-    background-color: rgba(44,44,44,0.5);
-    color: rgb(5,210,243);
-    float: left;
-}
-legend{
-    margin-left: 10px;
-}
 .logo h1{
-    background-image: url("zdjecia/Trybiki.png");
-    background-repeat: no-repeat;
-    background-position: 94%;
-    background-size: contain;
+    /* TU TRZEBA ZROBIC TRYBIKI */
 }
