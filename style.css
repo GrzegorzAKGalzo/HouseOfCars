@@ -7,11 +7,12 @@
     float: left;
   }
 body{
+    background: rgb(10,37,43);
+    background: linear-gradient(0deg, rgba(10,37,43,1) 0%, rgba(68,119,133,1) 71%, rgba(4,23,26,1) 100%);
     background-image: url("zdjecia/Tło_Strony.png");
     background-repeat: no-repeat;
     background-size: cover;
-    /* background: rgb(10,37,43);
-    background: linear-gradient(0deg, rgba(10,37,43,1) 0%, rgba(68,119,133,1) 71%, rgba(4,23,26,1) 100%); */
+
 }
 /* For desktop: */
 .col-1 {width: 8.33%;}
@@ -100,4 +101,10 @@ td:nth-child(2n){
 }
 .logo h1{
     /* TU TRZEBA ZROBIC TRYBIKI */
+}
+ul{
+    text-align: left;
+}
+a{
+    text-decoration: none;
 }
