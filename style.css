@@ -123,3 +123,7 @@ a:hover{
   @keyframes wheel {
     100% {transform: rotate(360deg);}
   }
+  body, html {
+    height: 100%;
+    text-align: center;
+}
