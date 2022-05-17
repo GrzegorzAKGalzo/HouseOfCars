@@ -69,6 +69,7 @@ img{
 
 .naglowki{
     padding-top: 8vw;
+    /* text-shadow: 0px 0px 10px rgb(5,211,245); */
 }
 .info-box{
     border: 2px solid rgb(5,211,245);
@@ -111,7 +112,7 @@ a:hover{
   
   .slide-right h2 {
     animation: 2s slide-right 1s forwards;
-    transform:translateX(-100%);
+    transform:translateX(-111%);
   }
   
   @keyframes slide-right {
