@@ -3,17 +3,16 @@
     color: rgb(5,210,243);
     font-family: 'Montserrat', sans-serif;
   }
+  html{
+    background: url("zdjecia/Tło_Strony.png") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
   [class*="col-"] {
     float: left;
   }
-body{
-    height: 100vh;
-    background: linear-gradient(0deg, rgba(10,37,43,1) 0%, rgba(68,119,133,1) 71%, rgba(4,23,26,1) 100%);
-    background-image: url("zdjecia/Tło_Strony.png");
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    background-color: rgb(10,37,43);
-}
 /* For desktop: */
 .col-1 {width: 8.33%;}
 .col-2 {width: 16.66%;}
